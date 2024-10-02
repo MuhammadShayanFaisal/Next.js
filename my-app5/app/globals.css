@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.NavBar-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.NavBar{
+  background-color: aqua;
+  color: red;
+  height: 75px;
+}
+.navlist{
+  width: 100%;
+  height: 70px;
+  background-color: blue;
+}
+.navchild{
+
+}
+/* .container{
+     display: flex;
+     border: 2px solid yellow;
+     align-items: center;
+     justify-content:space-between;
+
+}
+.childcontainer{
+  width:fit-content;
+  height: 250px;
+  background-color: deeppink;
+  border: 5px solid red;
+  margin: 40px;
+  font-size: 30px;
+  font-weight: bold;
+} */
